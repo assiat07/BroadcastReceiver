@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         unregisterReceiver(receiver);
-    }
+    }//this
 
 
     public void someMethod(View view) {
