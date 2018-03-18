@@ -38,4 +38,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent("com.syntaxt.broadcastreceiver.SOME_ACTION");
         sendBroadcast(intent);
     }
+
+    private void doTask() {
+        // to do task
+    }
 }
